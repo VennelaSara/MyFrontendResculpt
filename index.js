@@ -1,11 +1,11 @@
 // Import the Express.js library
 const express = require('express');
 const mongoose = require('mongoose');
-const WasteSubmission = require('./models/wasteSubmission'); // Import the model at the top
-const CreatorProfile = require('./models/creatorProfile');
-const Match = require('./models/match');
-const MatchResponse = require('./models/matchResponse');
-const Blockchain = require('./blockchain_sim/blockchain');
+const WasteSubmission = require('./wasteSubmission'); // Import the model at the top
+const CreatorProfile = require('./creatorProfile');
+const Match = require('./match');
+const MatchResponse = require('./matchResponse');
+const Blockchain = require('./blockchain');
 const cors = require('cors'); // Import the cors middleware
 // Create an instance of an Express application
 const app = express();
